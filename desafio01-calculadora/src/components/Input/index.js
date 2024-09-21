@@ -1,10 +1,12 @@
 
-const Button = () => {
+import { InputContainer } from "./styles";
+
+const Input = () => {
     return (
-      <div className="App"> 
-        Desafio 01 - Calculadora
-      </div>
+      <InputContainer>
+       <input />
+      </InputContainer>
     );
   }
   
-  export default App;
+  export default Input;
